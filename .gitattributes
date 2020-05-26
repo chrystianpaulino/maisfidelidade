@@ -1,7 +1,17 @@
-* text=auto
-*.css linguist-vendored
-*.scss linguist-vendored
-*.js linguist-vendored
-*.css linguist-detectable=false
+# * text=auto
+# *.css linguist-vendored
+# *.scss linguist-vendored
+# *.js linguist-vendored
+# *.css linguist-detectable=false
+# *.js linguist-detectable=true
+
+*.pl linguist-detectable=true
 *.js linguist-detectable=true
+*.html linguist-detectable=false
+*.htm inguist-detectable=false
+public/libs/* linguist-vendored
+scot-ui/public/libs/ linguist-vendored
+docs/* linguist-documentation
+
+
 CHANGELOG.md export-ignore
